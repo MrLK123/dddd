@@ -1,7 +1,6 @@
 <template>
     <div>
-        Home
-        <router-link to="/list">List</router-link>
+      hollow world
     </div>
 </template>
 
