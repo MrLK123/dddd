@@ -95,32 +95,34 @@
         .icons >>> .swiper-container 
             height:0
             padding-bottom:50%
-        .icon 
-            position:relative
-            height:0
-            width:25%
-            float:left
-            padding-bottom:25%
-            .icon-img
-                box-sizing:border-box
-                padding:.1rem
-                position: absolute
-                left:0
-                right:0
-                top:0
-                bottom:.44rem
-                .icon-img-content
-                    height:100%
-                    display:block
-                    margin:0 auto
-            .icon-desc
-                position:absolute
-                text-align:center
-                height:.44rem
-                line-height:.44rem
-                left:0
-                right:0 
-                bottom:0   
-                color:$darkTextColor
-                ellipsis()
+        .icons
+            margin-top:.2rem
+            .icon 
+                position:relative
+                height:0
+                width:25%
+                float:left
+                padding-bottom:25%
+                .icon-img
+                    box-sizing:border-box
+                    padding:.1rem
+                    position: absolute
+                    left:0
+                    right:0
+                    top:0
+                    bottom:.44rem
+                    .icon-img-content
+                        height:100%
+                        display:block
+                        margin:0 auto
+                .icon-desc
+                    position:absolute
+                    text-align:center
+                    height:.44rem
+                    line-height:.44rem
+                    left:0
+                    right:0 
+                    bottom:0   
+                    color:$darkTextColor
+                    ellipsis()
     </style>
