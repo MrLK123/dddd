@@ -14,23 +14,16 @@
 <script>
 export default {
   name: "HeaderSwiper",
+  props:{
+    swiperList:Array
+  },
   data() {
     return {
       swiperOption: {
           pagination:'.swiper-pagination',
           loop:true,
           autoplay:3000
-      },
-      swiperList:[
-          {
-              id:'0001',
-              imgUrl:"https://img1.qunarzz.com/p/tts3/1710/d8/9e2349a941d6e702.jpg_r_640x420x90_2210a8d3.jpg"
-          },
-          {
-              id:'0002',
-              imgUrl:"https://img1.qunarzz.com/vs_ceph_vs_tts/5207cb6b-40b5-43c2-ae22-3d5ab44ef334.jpg_r_640x420x90_2c48378b.jpg"
-          }
-      ]
+      }
     };
   }
 };
