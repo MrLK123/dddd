@@ -9,6 +9,12 @@ import 'styles/reset.css'
 import 'styles/border.css'
 import 'styles/iconfont.css'
 import 'swiper/dist/css/swiper.css' 
+// 引入echarts
+// import echarts from 'echarts'
+
+// Vue.prototype.$echarts = echarts 
+
+
 Vue.use(VueAwesomeSwiper)
 Vue.config.productionTip = false
 fastClick.attach(document.body)
