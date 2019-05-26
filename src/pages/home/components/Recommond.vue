@@ -2,14 +2,14 @@
     <div>
         <div class="title">今日推荐</div>
         <ul>
-            <li v-for="item of filterItem" :key="item.id" class="item border-bottom">
+            <router-link tag="li" :to="'/detail/'+item.id" v-for="item of filterItem" :key="item.id" class="item border-bottom">
                 <img class="item-img" :src="item.imgUrl">
                 <div class="item-info">
                     <p class="item-title">{{item.title}}</p>
                     <p class="item-desc">{{item.desc}}</p>
                     <button class="item-button">查看详情</button>
                 </div>
-            </li>
+            </router-link>
         </ul>
         <div v-if="page==5" class="item-more" @click="allItem">查看所有产品</div>
     </div>
