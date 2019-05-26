@@ -44,7 +44,7 @@ import { clearTimeout, setTimeout } from 'timers';
                     }
                     this.timer=setTimeout(()=>{
                         const touchY=e.touches[0].clientY-this.startY;
-                        const index=Math.floor(touchY/20);
+                        const index=Math.floor(touchY/20);    
                         if(index>=0 && index<=this.letters.length){
                             this.$emit("change",this.letters[index])
                              }
