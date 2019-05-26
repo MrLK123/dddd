@@ -29,7 +29,7 @@
     export default {
         name:"CityList",
         props:['cities','hotCities','letter'],
-        mounted(){
+        activated(){
             this.scroll=new Bscroll(this.$refs.wrapper);
         },
         methods:{

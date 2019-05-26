@@ -18,6 +18,7 @@
         },
         methods:{
             handleScroll(){
+                console.log(3);
                 const top=document.documentElement.scrollTop;
                if(top<60){
                    this.showAbs=true
@@ -30,6 +31,10 @@
         },
         activated(){
             window.addEventListener("scroll",this.handleScroll);
+        },
+        deactivated(){
+            console.log(5)
+            window.removeEventListener("scroll",this.handleScroll);
         }
     }
 </script>
