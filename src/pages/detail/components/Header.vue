@@ -18,7 +18,7 @@
         },
         methods:{
             handleScroll(){
-                console.log(3);
+             
                 const top=document.documentElement.scrollTop;
                if(top<60){
                    this.showAbs=true
@@ -33,7 +33,7 @@
             window.addEventListener("scroll",this.handleScroll);
         },
         deactivated(){
-            console.log(5)
+         
             window.removeEventListener("scroll",this.handleScroll);
         }
     }
@@ -55,6 +55,7 @@
             color:#fff
             font-size:.6rem
     .fixed-header
+        z-index:2
         position:fixed
         top:0;
         left:0

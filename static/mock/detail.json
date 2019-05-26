@@ -1,0 +1,10 @@
+{
+    "ret":true,
+    "data":{
+        "list":[{"title":"成人票","children":[{"title":"三馆成人票"},{"title":"五馆成人票","children":[{"title":"五馆成人票1"},{"title":"五馆成人票2"},{"title":"五馆成人票3"}]},{"title":"七馆成人票"}]},{"title":"儿童票","children":[{"title":"三馆儿童票"},{"title":"五馆儿童票","children":[{"title":"五馆儿童票1"},{"title":"五馆儿童票2"},{"title":"五馆儿童票3"}]},{"title":"七馆儿童票"}]},{"title":"学生票"},{"title":"特惠票"}],
+        "sightName":"北京世界园艺博览会",
+        "bannerImg":"//img1.qunarzz.com/sight/p0/1902/37/3766884ef42171ffa3.img.jpg_600x330_71e0584e.jpg",
+        "galleryImg":["http://img1.qunarzz.com/sight/p0/201301/09/db8f3d2e54e643f793835fbb.jpg_350x240_1bc55c88.jpg ","http://img1.qunarzz.com/sight/p0/1902/84/84696f368bbec10da3.img.jpg_350x240_3a0fefe8.jpg"]
+    }
+
+}
